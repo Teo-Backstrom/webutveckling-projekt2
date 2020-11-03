@@ -1,0 +1,7 @@
+img {
+  width: 100px;
+}
+.symboler {
+  display: flex;
+  flex-direction: column;
+}
