@@ -1,7 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Cherry Cream Soda", cursive;
+  padding: 2vh;
+  background-color: #880d1e;
+}
+
+.kod {
+  text-align: center;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-top: 5vh;
+  align-items: center;
+  border: 1px black solid;
+  border-radius: 1vh;
+  padding: 8px;
+}
+
+.symboler {
+  margin: 3vh;
+}
+
 img {
   width: 100px;
 }
-.symboler {
+
+h1,
+h2 {
+  margin: 5vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+main p {
+  margin: 8vw;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+section p {
+  margin-left: 8vw;
 }
