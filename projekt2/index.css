@@ -5,19 +5,43 @@
 
 header {
   font-family: "Cherry Cream Soda", cursive;
-  padding: 2vh;
+  padding: 1vh;
   background-color: #880d1e;
 }
 
+h1,
+h2 {
+  margin: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
 .kod {
-  text-align: center;
-  margin-left: 25vw;
-  margin-right: 25vw;
-  margin-top: 5vh;
+  display: flex;
   align-items: center;
+  flex-direction: column;
+}
+
+.inmatning {
+  text-align: center;
+  width: 50vw;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+  border: 1px black solid;
+  border-radius: 1vh;
+  padding: 1.5vh;
+}
+
+.inlogning {
+  text-align: center;
+  width: 30vw;
   border: 1px black solid;
   border-radius: 1vh;
   padding: 8px;
+}
+
+.inlogning :hover {
+  background-color: red;
 }
 
 .symboler {
@@ -28,12 +52,6 @@ img {
   width: 100px;
 }
 
-h1,
-h2 {
-  margin: 5vh;
-  display: flex;
-  justify-content: center;
-}
 main p {
   margin: 8vw;
   text-align: center;
