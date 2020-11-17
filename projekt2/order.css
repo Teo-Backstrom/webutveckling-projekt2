@@ -7,19 +7,74 @@ header {
   font-family: "Cherry Cream Soda", cursive;
   padding: 1vh;
   background-color: #880d1e;
+  height: 20vh;
 }
 
 nav a {
-  margin-bottom: 10vh;
   text-decoration: none;
   color: black;
   border: solid black;
+  border-radius: 0.5vh;
 }
 
 h1 {
-  margin: 5vh;
+  margin-top: 3vh;
   display: flex;
   justify-content: center;
+}
+
+body {
+  background-image: url(output-onlinejpgtools.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.dagensrekomentation {
+  width: 80vw;
+  height: 55vh;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.dagensrätter {
+  width: 240vw;
+  height: 55vh;
+  position: relative;
+  transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+
+.dagensrätter section {
+  border: black solid;
+  width: 80vw;
+  height: 55vh;
+  background: linear-gradient(#ffffff, #cccccc);
+  float: left;
+}
+
+.knapp-hållare {
+  position: relative;
+}
+.slider-knapp {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+#slider-rätt-1:target ~ .dagensrätter {
+  left: 0vw;
+}
+#slider-rätt-2:target ~ .dagensrätter {
+  left: -80vw;
+}
+#slider-rätt-3:target ~ .dagensrätter {
+  left: -160vw;
 }
 
 h3 {
@@ -34,12 +89,15 @@ h3 {
   text-align: center;
 }
 
-.rätter img {
+img {
   width: 80vw;
   height: 80vw;
 }
 
 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 1vh;
   margin-bottom: 2vh;
   margin-right: auto;
@@ -48,11 +106,21 @@ p {
   width: 40vw;
   height: 5vh;
   border: solid black;
+  background-color: #880d1e;
 }
 
 .rätter aside {
   border: black solid;
   width: 80vw;
+  background: linear-gradient(#ffffff, #cccccc);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+footer a {
 }
 
 footer img {

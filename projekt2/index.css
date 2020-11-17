@@ -16,7 +16,12 @@ h2 {
   justify-content: center;
 }
 
-.kod {
+body {
+  background-image: url(output-onlinejpgtools.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+form {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -40,7 +45,7 @@ h2 {
   padding: 8px;
 }
 
-.inlogning :hover {
+.inlogning:hover {
   background-color: red;
 }
 
@@ -48,8 +53,15 @@ h2 {
   margin: 3vh;
 }
 
+.symboler section {
+  margin-top: 2vh;
+}
+
 img {
-  width: 100px;
+  width: 15vh;
+  height: 15vh;
+  border-radius: 100%;
+  opacity: 0.9;
 }
 
 main p {
