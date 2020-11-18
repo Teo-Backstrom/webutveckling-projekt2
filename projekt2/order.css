@@ -49,7 +49,6 @@ body {
 }
 
 .dagensrätter section {
-  border: black solid;
   width: 80vw;
   height: 55vh;
   background: linear-gradient(#ffffff, #cccccc);
@@ -125,4 +124,40 @@ footer a {
 
 footer img {
   height: 8vh;
+}
+
+@media only screen and (min-width: 1200px) {
+  img {
+    width: 20vw;
+    height: auto;
+  }
+
+  .rätter {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 15% 15%;
+  }
+
+  .rätter section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rätter aside {
+    width: 20vw;
+  }
+
+  .rätter-kort {
+    display: flex;
+    flex-direction: row;
+  }
+
+  p {
+    text-align: center;
+    width: 10vw;
+    height: 5vh;
+    border: solid black;
+    background-color: #880d1e;
+  }
 }
