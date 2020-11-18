@@ -29,6 +29,9 @@ img {
 
 body {
   background-image: url(output-onlinejpgtools.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .huvudrubrik {
   margin-top: 1vh;
@@ -72,4 +75,33 @@ body {
 hr {
   width: 90vw;
   margin: auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  background-color: gray;
+}
+
+footer aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+footer img {
+  height: 8vh;
+  width: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+  img {
+    height: 60vh;
+    width: auto;
+  }
 }

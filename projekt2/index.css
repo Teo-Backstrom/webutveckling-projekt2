@@ -19,6 +19,8 @@ h2 {
 body {
   background-image: url(output-onlinejpgtools.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   width: 100vw;
 }
 form {
@@ -75,4 +77,41 @@ section {
 }
 section p {
   margin-left: 8vw;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  background-color: gray;
+}
+
+footer aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+footer img {
+  height: 8vh;
+  width: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+  .symboler section {
+    margin-left: 20vw;
+  }
+
+  .inmatning {
+    width: 30vw;
+  }
+
+  .inlogning {
+    width: 20vw;
+    height: 5vh;
+  }
 }
