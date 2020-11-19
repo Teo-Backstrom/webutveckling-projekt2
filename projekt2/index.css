@@ -80,6 +80,7 @@ section p {
 }
 
 footer {
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   height: 20vh;
@@ -101,7 +102,7 @@ footer img {
   width: auto;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   .symboler section {
     margin-left: 20vw;
   }

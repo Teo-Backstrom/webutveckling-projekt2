@@ -60,6 +60,7 @@ body {
   margin-top: 1vh;
   margin-bottom: 1vh;
   margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .ingrideienser {
@@ -78,6 +79,7 @@ hr {
 }
 
 footer {
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   height: 20vh;
@@ -99,9 +101,15 @@ footer img {
   width: auto;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   img {
-    height: 60vh;
-    width: auto;
+    height: 70vh;
+    object-fit: cover;
+  }
+
+  .ingrideienser {
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 50vw;
   }
 }
