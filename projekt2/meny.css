@@ -4,12 +4,9 @@
 }
 
 header {
-  font-family: "Cherry Cream Soda", cursive;
   padding: 1vh;
   background-color: #880d1e;
   border: solid black 2px;
-  border-bottom-left-radius: 2vh;
-  border-bottom-right-radius: 2vh;
 }
 
 h1 {
@@ -19,6 +16,7 @@ h1 {
 }
 
 body {
+  font-family: "Cherry Cream Soda", cursive;
   background-image: url(output-onlinejpgtools.jpg);
   background-repeat: no-repeat;
   width: 100vw;
@@ -47,6 +45,7 @@ body {
 }
 
 footer {
+  font-family: "Actor", sans-serif;
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
@@ -67,4 +66,10 @@ footer a {
 footer img {
   height: 8vh;
   width: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 4em;
+  }
 }
